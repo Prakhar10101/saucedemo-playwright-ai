@@ -8,7 +8,7 @@
 
 I ran every test case against the live site (saucedemo.com) by hand and gave
 it one verdict: Usable, Edited, Wrong, or Usable but exposed a bug.
-Full sheet: verdicts.csv
+Full sheet: Verdict.csv
 
 ## Results
 
@@ -34,7 +34,7 @@ Full sheet: verdicts.csv
 
 ## Defect found
 
-- BUG-001: checkout can start with an empty cart (from TC-CHK-08). See bugs-found.md.
+- BUG-001: checkout can start with an empty cart (from TC-CHK-08). See bugs.md.
 
 ## Limitations
 
