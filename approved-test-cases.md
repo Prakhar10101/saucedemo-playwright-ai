@@ -149,7 +149,7 @@
   1. Select "Price (low to high)".
   2. Verify item placement.
   3. Select "Price (high to low)".
-- **Expected Result:** Sorting executes without crashing or duplicating cards; secondary tie-breaker remains consistent.
+- **Expected Result**: Items are sorted by price in the correct direction, with no lost or duplicated cards. Items that share a price keep the same relative order each time the same sort is applied.
 
 ---
 
