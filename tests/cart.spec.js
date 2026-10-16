@@ -3,7 +3,7 @@ const { test, expect } = require("flake--radar/src/fixture");
 test.describe("Cart", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
-    await page.getByTestId("username").fill("standad_user");
+    await page.getByTestId("username").fill("standard_user");
     await page.getByTestId("password").fill("secret_sauce");
     await page.getByTestId("login-button").click();
     await expect(page).toHaveURL(/inventory/);
